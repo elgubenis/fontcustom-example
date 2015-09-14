@@ -18,4 +18,6 @@ gem install fontcustom
 ```
 
 # Usage
+```sh
 fontcustom compile /vectors
+```
