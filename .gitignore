@@ -27,7 +27,7 @@ build/Release
 node_modules
 
 # dont upload vector files
-
+vectors/**/*.svg
 
 # dont include test icons
 ./actionbar-icons
