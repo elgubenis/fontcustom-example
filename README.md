@@ -18,10 +18,21 @@ gem install fontcustom
 ```
 
 # Usage
+Compile once:
 ```sh
 fontcustom compile vectors/
 ```
 Or with a proper configuration in place:
 ```sh
 fontcustom compile vectors/ -c vectors/fontcustom.yml
+```
+To create a configuration:
+```sh
+fontcustom config vectors/
+```
+
+# Example
+Compile actionbar-icons:
+```sh
+fontcustom compile vectors/actionbar-icons/ -c vectors/actionbar-icons/fontcustom.yml
 ```
