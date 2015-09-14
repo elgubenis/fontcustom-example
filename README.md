@@ -19,5 +19,9 @@ gem install fontcustom
 
 # Usage
 ```sh
-fontcustom compile /vectors
+fontcustom compile vectors/
+```
+Or with a proper configuration in place:
+```sh
+fontcustom compile vectors/ -c vectors/fontcustom.yml
 ```
